@@ -1,5 +1,5 @@
-tasks.register("hello") {
+tasks.register("hello Gradle") {
     doLast {
         println("hello Gradle")
     }
-}x
+}

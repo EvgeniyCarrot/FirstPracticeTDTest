@@ -1,6 +1,11 @@
 public class testfile {
     public static void main(String[] args) {
         whileEx();
+        if (whileEx() == true) {
+            System.out.println("All good");
+        } else {
+            System.out.println("False methode");
+        }
     }
 
     public static boolean whileEx(){
